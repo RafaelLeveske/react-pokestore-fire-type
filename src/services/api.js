@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://pokestore-api-v1.herokuapp.com',
+  baseURL: process.env.REACT_APP_API_URL,
 });
 
 export default api;
