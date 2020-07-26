@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { Container, LogoContainer, Cart, Logo, Type } from './styles';
 
 import logo from '../../assets/images/logo.svg';
-import darkLogo from '../../assets/images/darklogo.svg';
+import fireLogo from '../../assets/images/firelogo.svg';
 import bagLogo from '../../assets/images/baglogo.svg';
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
           <img src={logo} alt="Pokemon" />
         </Logo>
 
-        <Type src={darkLogo} alt="Dark-Type" />
+        <Type src={fireLogo} alt="Dark-Type" />
       </LogoContainer>
 
       <Cart to="/cart">

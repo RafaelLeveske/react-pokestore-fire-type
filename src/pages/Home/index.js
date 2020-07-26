@@ -23,14 +23,12 @@ export default function Home() {
 
   useEffect(() => {
     async function loadProducts() {
-      const response = await api.get('dark_type');
+      const response = await api.get('fire_type');
 
       const data = response.data.map(product => ({
         ...product,
         priceFormatted: formatPrice(product.price),
       }));
-
-      console.log(data);
       setProducts(data);
     }
 
