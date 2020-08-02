@@ -40,11 +40,11 @@ export default function Detail() {
 
               <ul>
                 <li>
-                  <span>Height</span>
+                  <span>Altura</span>
                   <strong>{product.height} m</strong>
                 </li>
                 <li>
-                  <span>Weight</span>
+                  <span>Peso</span>
                   <strong>{product.weight} Kg</strong>
                 </li>
                 <li>
@@ -52,7 +52,7 @@ export default function Detail() {
                   <strong>{product.category}</strong>
                 </li>
                 <li>
-                  <span>Abilities</span>
+                  <span>Abilidades</span>
                   <strong>{product.abilities}</strong>
                 </li>
               </ul>
