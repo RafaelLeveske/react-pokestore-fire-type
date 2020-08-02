@@ -48,7 +48,7 @@ export default function Detail() {
                   <strong>{product.weight} Kg</strong>
                 </li>
                 <li>
-                  <span>Category</span>
+                  <span>Categoria</span>
                   <strong>{product.category}</strong>
                 </li>
                 <li>
