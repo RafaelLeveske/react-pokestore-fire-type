@@ -13,17 +13,32 @@ export const LogoContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 50px 0;
+
+  @media (max-width: 800px) {
+    align-items: center;
+  }
 `;
 
 export const Logo = styled(Link)`
   width: 250px;
   height: 250px;
+
+  @media (max-width: 800px) {
+    img {
+      max-width: 80%;
+      margin-top: 25px;
+    }
+  }
 `;
 
 export const Type = styled.img`
   width: 40px;
   height: 40px;
   margin-top: 25px;
+
+  @media (max-width: 800px) {
+    margin-right: 30px;
+  }
 `;
 
 export const Cart = styled(Link)`
@@ -53,6 +68,13 @@ export const Cart = styled(Link)`
     span {
       font-size: 12px;
       color: #999;
+    }
+  }
+
+  @media (max-width: 800px) {
+    div {
+      margin-left: 25px;
+      margin-right: 5px;
     }
   }
 `;
