@@ -140,8 +140,9 @@ export const Container = styled.section`
         }
 
         button {
+          max-width: 70%;
+          margin: 0 auto;
           margin-top: 70px;
-          flex: 1;
         }
       }
     }
