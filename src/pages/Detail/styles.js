@@ -141,6 +141,7 @@ export const Container = styled.section`
 
         button {
           margin-top: 70px;
+          flex: 1;
         }
       }
     }
