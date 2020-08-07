@@ -27,6 +27,20 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 1000px) {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+
+    footer {
+      flex: 1;
+
+      button {
+        width: 30%;
+      }
+    }
+  }
 `;
 
 export const ProductTable = styled.table`
@@ -77,6 +91,18 @@ export const ProductTable = styled.table`
     border: 0;
     background: none;
   }
+
+  @media (max-width: 1000px) {
+    width: 70%;
+
+    thead th {
+      padding: 6px;
+    }
+
+    button {
+      width: 70%;
+    }
+  }
 `;
 
 export const Total = styled.div`
@@ -94,10 +120,10 @@ export const Total = styled.div`
   }
 
   @media (max-width: 1000px) {
-    display: block;
-    margin: 0 auto;
-    align-self: center;
-    padding: 15 20px;
-    margin-bottom: 20px;
+    justify-content: space-between;
+
+    strong {
+      font-size: 18px;
+    }
   }
 `;
