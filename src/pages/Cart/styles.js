@@ -92,4 +92,12 @@ export const Total = styled.div`
     margin-left: 5px;
     font-size: 28px;
   }
+
+  @media (max-width: 1000px) {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+    padding: 15 20px;
+    margin-bottom: 20px;
+  }
 `;
