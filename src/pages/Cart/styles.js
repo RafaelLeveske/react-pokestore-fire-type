@@ -93,6 +93,7 @@ export const ProductTable = styled.table`
   }
 
   @media (max-width: 1000px) {
+    display: block;
     width: 70%;
 
     thead th {
